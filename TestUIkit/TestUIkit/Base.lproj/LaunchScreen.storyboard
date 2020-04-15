@@ -31,14 +31,7 @@
         <!--View Controller-->
         <scene sceneID="394-NC-fCS">
             <objects>
-                <viewController id="ZVe-8a-BkV" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="4qO-mI-rY7">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="XoY-XL-hhx"/>
-                    </view>
-                </viewController>
+                <viewController id="ZVe-8a-BkV" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aS0-FD-vKP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="593" y="271"/>
