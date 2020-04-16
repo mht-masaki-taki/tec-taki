@@ -18,7 +18,7 @@ class ViewController: UIViewController {
 
 
     @IBAction func tapButton(_ sender: Any) {
-        textLabel.text = "Hello World"
+        textLabel.text = "次止まります"
     }
     
 }
