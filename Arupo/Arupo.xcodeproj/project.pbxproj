@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00772FC6244D5987007147CE /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00772FC4244D5987007147CE /* ImageCell.swift */; };
+		00772FC7244D5987007147CE /* ImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00772FC5244D5987007147CE /* ImageCell.xib */; };
 		00BBD65624498C520029FFFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BBD65524498C520029FFFB /* AppDelegate.swift */; };
 		00BBD65824498C520029FFFB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BBD65724498C520029FFFB /* SceneDelegate.swift */; };
 		00BBD65A24498C520029FFFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BBD65924498C520029FFFB /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00772FC4244D5987007147CE /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
+		00772FC5244D5987007147CE /* ImageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageCell.xib; sourceTree = "<group>"; };
 		00BBD65224498C520029FFFB /* Arupo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Arupo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00BBD65524498C520029FFFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		00BBD65724498C520029FFFB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 				00BBD65E24498C520029FFFB /* Assets.xcassets */,
 				00BBD66024498C520029FFFB /* LaunchScreen.storyboard */,
 				00BBD66324498C520029FFFB /* Info.plist */,
+				00772FC4244D5987007147CE /* ImageCell.swift */,
+				00772FC5244D5987007147CE /* ImageCell.xib */,
 			);
 			path = Arupo;
 			sourceTree = "<group>";
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				00BBD66224498C520029FFFB /* LaunchScreen.storyboard in Resources */,
+				00772FC7244D5987007147CE /* ImageCell.xib in Resources */,
 				00BBD65F24498C520029FFFB /* Assets.xcassets in Resources */,
 				00BBD65D24498C520029FFFB /* Main.storyboard in Resources */,
 			);
@@ -139,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				00BBD65A24498C520029FFFB /* ViewController.swift in Sources */,
+				00772FC6244D5987007147CE /* ImageCell.swift in Sources */,
 				00BBD65624498C520029FFFB /* AppDelegate.swift in Sources */,
 				00BBD65824498C520029FFFB /* SceneDelegate.swift in Sources */,
 			);
