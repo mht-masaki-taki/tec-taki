@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Newcamera" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IFW-LX-Fz4">
+                                <rect key="frame" x="40" y="742" width="334" height="30"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="Irr-BZ-bwf"/>
+                                    <constraint firstAttribute="height" constant="30" id="oji-ak-EEb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="撮影"/>
+                                <connections>
+                                    <action selector="cameraLaunch:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iFv-xS-sNi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1K1-Ds-86m">
+                                <rect key="frame" x="40" y="802" width="334" height="30"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="0cu-Tv-mRB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="しぇあ"/>
+                                <connections>
+                                    <action selector="shareAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Mn0-dk-TJH"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="T3J-fb-vaj">
+                                <rect key="frame" x="40" y="74" width="334" height="638"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="1K1-Ds-86m" secondAttribute="bottom" constant="30" id="4Pe-R3-Fb8"/>
+                            <constraint firstItem="1K1-Ds-86m" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="7jD-M8-Uh8"/>
+                            <constraint firstItem="IFW-LX-Fz4" firstAttribute="top" secondItem="T3J-fb-vaj" secondAttribute="bottom" constant="30" id="ALU-hO-Tas"/>
+                            <constraint firstItem="T3J-fb-vaj" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="Fsr-iD-O6m"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="IFW-LX-Fz4" secondAttribute="trailing" constant="30" id="G4N-Ka-Yn1"/>
+                            <constraint firstItem="T3J-fb-vaj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="KQH-9e-1Jw"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="IFW-LX-Fz4" secondAttribute="trailing" constant="40" id="PQd-g7-TpE"/>
+                            <constraint firstItem="IFW-LX-Fz4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="TMr-P3-PvE"/>
+                            <constraint firstItem="IFW-LX-Fz4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="c1L-kk-sIT"/>
+                            <constraint firstItem="1K1-Ds-86m" firstAttribute="top" secondItem="IFW-LX-Fz4" secondAttribute="bottom" constant="30" id="ese-q6-2cD"/>
+                            <constraint firstItem="1K1-Ds-86m" firstAttribute="top" secondItem="IFW-LX-Fz4" secondAttribute="bottom" constant="30" id="ken-Ou-rhc"/>
+                            <constraint firstItem="1K1-Ds-86m" firstAttribute="top" secondItem="IFW-LX-Fz4" secondAttribute="bottom" constant="52" id="n9K-Zb-9vy"/>
+                            <constraint firstItem="IFW-LX-Fz4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="nIH-26-LNU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1K1-Ds-86m" secondAttribute="trailing" constant="40" id="plG-6O-XiP"/>
+                            <constraint firstItem="IFW-LX-Fz4" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="qaz-yI-gFh"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="T3J-fb-vaj" secondAttribute="trailing" constant="40" id="uzd-p9-7in"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="photoImage" destination="T3J-fb-vaj" id="xA3-he-ShB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="118.52678571428571"/>
+        </scene>
+    </scenes>
+</document>
